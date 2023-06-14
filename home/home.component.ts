@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+    downloadPdf() {
+    const pdfPath = 'assets/Dinesh Kumar ( Resume).docx'; // Replace with the actual path to your PDF file
+    const link = document.createElement('a');
+    link.href = pdfPath;
+    link.download = 'downloaded-docx.docx';
+    link.click();
+  }
 }
