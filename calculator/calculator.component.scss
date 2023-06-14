@@ -1,0 +1,142 @@
+
+
+.container {
+  width: 250px;
+  height: 400px;
+  margin: 80px auto;
+  border-radius: 10px;
+  background-color: rgb(214, 214, 214);
+
+  /* box-shadow is used to achieve Neumorphism
+  by using a light shadow and a dark shadow*/
+  box-shadow: 5px 5px 10px #b6a9a9,
+    -5px -5px 10px #ffffff;
+
+  }
+
+  .cal-box {
+  width: 200px;
+  margin: 20px auto;
+  }
+
+  #display {
+  border: none;
+  outline: none;
+  color: black;
+  text-align: right;
+  font-weight: 600;
+  padding: 15px;
+  margin: 30px 0 20px 0;
+  background: transparent;
+
+  /* Inset shadow gives the appearance that
+    the element is being pressed into it.*/
+  box-shadow: inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #ffffff;
+
+  }
+
+  .button {
+  margin: 15px 0 0 5px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(214, 214, 214);
+
+  /* box-shadow is used to achieve Neumorphism
+  by using a light shadow and a dark shadow */
+  box-shadow: 5px 5px 10px #b6acac,
+    -5px -5px 10px #faf4f4;
+  display: inline-block;
+  }
+
+  .button:active {
+
+  /* When the button is pressed, the inset
+  shadow provides the impression that the
+  element is being pressed into it */
+  box-shadow: inset 1px 1px 2px #babecc,
+    inset -1px -1px 2px #fff;
+  }
+
+  .clearButton {
+  color: white;
+  background-color: red;
+  }
+
+  .mathbutton {
+  color: white;
+  background-color: black;
+  }
+
+  .heading{
+    text-align: center;
+    font-size: 60px;
+    color:red;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .heading:hover{
+    color: #fc8c05;
+
+  }
+
+  /* back to home button */
+.backbtn{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+
+}
+.backbtn .btn {
+  position: relative;
+  line-height: 0;
+  padding: 1.6rem 3rem;
+  border-radius: .5em;
+  transition: 0.3s;
+  color: #fff;
+  border: 2px solid #bd0c0c;
+  box-shadow: 0px 2px 4px rgba(48, 68, 247, .3);
+  text-align: center;
+}
+.backbtn .btn span {
+  font-weight: 600;
+  font-size: 1.7rem;
+  font-family: 'Nunito', sans-serif;
+}
+.backbtn .btn i {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  transition: 0.3s;
+}
+.backbtn .btn:hover{
+  background: #ffffff;
+  color: #000;
+}
+.backbtn .btn:hover i {
+  transform: translateX(-8px);
+}
+
+
+
+.calculator{
+
+  background-color: rgb(214, 214, 214);
+  min-height: 100vh;
+  background-image: url(/assets/img/back1.jfif);
+  margin-top: -1.2rem;
+
+}
+
+
+
